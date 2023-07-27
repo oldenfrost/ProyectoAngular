@@ -1,0 +1,183 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Julius Sans One', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.border{
+    width: 90%;
+    height: 90%;
+    border: solid 6px rgb(0, 0, 0);
+ 
+
+}
+footer{
+margin-top: 1rem;
+    text-align: center;
+}
+
+
+
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.h2{
+    font-size: 1rem;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+
+.menu{
+    display: flex;
+    position: absolute;
+    top: 0;
+    font-size: 0.8rem;
+
+    width:90%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+}
+@media (min-width: 300px) {
+
+    .menu{
+        display: flex;
+        position: absolute;
+        top: 0;
+        
+ 
+    
+        width:90%;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+    
+    }
+    h2{
+        font-size: 0.8rem;
+     margin-top: 1rem;
+     font-weight: 50;
+
+
+ 
+    }
+ 
+
+
+ 
+   }
+   @media (min-width: 600px) and (max-width: 1000px) {
+
+    .menu{
+        display: flex;
+        position: absolute;
+        top: 0;
+        
+        font-size: 0.8rem;
+    
+        width:90%;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+    
+    }
+    h2{
+     font-size: 1.5rem;
+     margin-top: 1rem;
+     font-weight: 50;
+
+
+ 
+    }
+ 
+
+
+ 
+   }
+
+
+ 
+
+@media (min-width: 1024px) {
+
+    .menu{
+        display: flex;
+        position: absolute;
+        top: 0;
+        
+        font-size: 0.8rem;
+    
+        width:90%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    
+    }
+    h2{
+     font-size: 1.5rem;
+     margin-top: 1rem;
+     font-weight: 100;
+     writing-mode: vertical-rl;
+     user-select: none;
+    cursor: pointer;
+
+ 
+    }
+    .fuente1{
+        position: absolute;
+        white-space: nowrap;
+        top:3rem;
+        right:-2rem;
+        font-size: 2rem;
+    }
+    .fuente2{
+        position: absolute;
+  
+        top:12rem;
+        right:-2rem;
+    }
+
+
+ 
+   }
+   @media (max-width: 800px) {
+    .fuente1{
+      font-size: 1rem;
+    }
+   }
+   @media (max-width: 1920px) {
+    .fuente1{
+      font-size: 2rem;
+    }
+   }
+
+ 

@@ -1,0 +1,44 @@
+.webgl{
+    position: absolute;
+    top: 9rem;
+
+
+}
+.aparecer {
+    animation: aparecer-animacion 3s ease-out;
+  }
+  
+  @keyframes aparecer-animacion {
+    from {
+      opacity: 0;
+    
+    }
+    to {
+      opacity: 1;
+
+    }
+  }
+  @media (min-height: 668px) {
+    .webgl{
+      position: absolute;
+      top: 9.6rem;
+  
+  
+  }
+
+
+ 
+
+   }
+   @media (min-height: 844px) {
+    .webgl{
+      position: absolute;
+  
+  
+  
+  }
+
+
+ 
+  
+   }

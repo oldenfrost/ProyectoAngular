@@ -1,0 +1,43 @@
+/**********************************loading pagina*******************************/
+
+.loading-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgb(156, 156, 156) 0%, rgb(112, 112, 112) 50%, rgb(71, 71, 71) 80%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+
+  
+  .name-container {
+    height: 30px;
+    overflow: hidden;
+  }
+  
+  .logo-name {
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-weight: bolder;
+  }
+
+  
+  @keyframes draw {
+    0% {
+        stroke-dashoffset:1048;
+    }
+
+    100% {
+        stroke-dashoffset:0;
+    }
+  }
